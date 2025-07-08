@@ -1,0 +1,61 @@
+.explore-wrapper {
+  width: 100%;
+}
+
+/* Top dark section */
+.explore-hero {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.explore-hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-transform: lowercase;
+}
+
+.explore-hero p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto 30px auto;
+}
+
+.explore-button {
+  padding: 10px 20px;
+  border: 1px solid cyan;
+  background: transparent;
+  color: cyan;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Bottom white section */
+.explore-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px;
+  background-color: white;
+  color: black;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.explore-image img {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.explore-text {
+  max-width: 500px;
+}
+
+.explore-text h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
