@@ -1,28 +1,41 @@
+/* NavBar.css */
+
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 20px 40px;
-  border-bottom: 2px solid #00f;
   align-items: center;
+  background-color: #0072ff;
+  color: white;
+  padding: 1rem 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
-  color: #ccc;
-  font-size: 20px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-links li {
-  color: #888;
   cursor: pointer;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links li:hover {
+  color: #ffdd57;
 }
 
 .nav-links .active {
-  color: white;
-  font-weight: bold;
+  border-bottom: 2px solid #ffdd57;
+  padding-bottom: 2px;
 }
